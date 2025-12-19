@@ -132,9 +132,9 @@ a:hover, a:focus {
 .wp-block-create-block-kanopi-react-block h2 {
   margin-top: unset;
 }
-.wp-block-create-block-kanopi-react-block.has-background a {
-  color: black;
-  background-color: white;
+.wp-block-create-block-kanopi-react-block a {
+  color: white;
+  background-color: rgb(8, 70, 96);
 }
 
 /*# sourceMappingURL=style.css.map */

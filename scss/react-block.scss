@@ -21,10 +21,8 @@
         margin-top: unset;
     }
 
-    &.has-background {
-        a {
-            color: black;
-            background-color: white;
-        }
+    a {
+        color: white;
+        background-color: rgb(8, 70, 96);
     }
 }
