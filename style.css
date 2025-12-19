@@ -3,6 +3,12 @@
  * Author: Jordan Alamilla
  * Version: 0.1
  */
+/**
+ * Mixin Styles
+ */
+/**
+ * Animations
+ */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -14,7 +20,7 @@
   }
 }
 /**
- * Site containing elements
+ * Styles for Site Containing Elements
  */
 body {
   background-color: rgb(255, 251, 246);
@@ -35,7 +41,7 @@ body {
 }
 
 /**
- * Typography
+ * Typography Styles
  */
 h1 {
   font-size: 4rem;
@@ -86,6 +92,9 @@ h6 {
   margin-bottom: 10px;
 }
 
+/**
+ * Button Styles
+ */
 a {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   transition: 0.2s ease all;
@@ -103,6 +112,9 @@ a:hover, a:focus {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0);
 }
 
+/**
+ * React Block Styles
+ */
 .wp-block-create-block-kanopi-react-block {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   transition: 0.2s ease all;
