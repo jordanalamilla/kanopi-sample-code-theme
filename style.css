@@ -47,15 +47,30 @@ h1 {
   font-size: 4rem;
   line-height: 1.2;
 }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
 
 h2 {
   font-size: 3rem;
   line-height: 1.2;
 }
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
 
 h3 {
   font-size: 2rem;
   line-height: 1.2;
+}
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 1.5rem;
+  }
 }
 
 h4 {
@@ -63,10 +78,20 @@ h4 {
   font-weight: 300;
   line-height: 1.2;
 }
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 1.5rem;
+  }
+}
 
 h5 {
   font-size: 1.5rem;
   line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  h5 {
+    font-size: 1.2rem;
+  }
 }
 
 h6 {
@@ -74,12 +99,22 @@ h6 {
   font-weight: 300;
   line-height: 1.5;
 }
+@media screen and (max-width: 768px) {
+  h6 {
+    font-size: 1.2rem;
+  }
+}
 
 p {
   font-size: 1.5rem;
   line-height: 1.5;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
 }
 
 h1,
@@ -106,6 +141,11 @@ a.button {
   background-color: black;
   padding: 10px 25px;
   border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  a.button {
+    font-size: 1.2rem;
+  }
 }
 a.button:hover, a.button:focus {
   transform: scale(0.96);
