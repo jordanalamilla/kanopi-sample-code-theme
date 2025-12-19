@@ -19,8 +19,12 @@ add_action( 'wp_enqueue_scripts', 'kanopi_enqeue' );
  * Display Date
  *
  * A shortcode to display a dynamic date string in a template HTML file.
+ *
+ * @return String
  */
 function display_date() {
-	return "Today's date is: " . gmdate( 'F j, Y' );
+	$date_today = wp_date( 'F j, Y' );
+
+	return "<h5>Today's date is: " . $date_today . '</h5>';
 }
 add_shortcode( 'display_date', 'display_date' );
