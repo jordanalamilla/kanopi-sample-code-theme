@@ -7,9 +7,14 @@
  * Site containing elements
  */
 body {
+  background-color: rgb(255, 251, 246);
   margin: unset;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+}
+
+.wp-site-blocks {
+  padding: 0 15px;
 }
 
 /**
@@ -29,6 +34,7 @@ h3 {
 
 h4 {
   font-size: 2rem;
+  font-weight: 300;
 }
 
 h5 {
@@ -37,10 +43,62 @@ h5 {
 
 h6 {
   font-size: 1.5rem;
+  font-weight: 300;
 }
 
 p {
   font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease all;
+  font-size: 1.5rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  text-decoration: unset;
+  color: white;
+  background-color: black;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+a:hover, a:focus {
+  transform: scale(0.96);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+}
+
+.wp-block-create-block-kanopi-react-block {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease all;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  margin: 80px 0;
+}
+.wp-block-create-block-kanopi-react-block:hover {
+  transform: translateY(-5px);
+}
+.wp-block-create-block-kanopi-react-block .cta-content-container {
+  padding: 50px;
+}
+.wp-block-create-block-kanopi-react-block h2 {
+  margin-top: unset;
+}
+.wp-block-create-block-kanopi-react-block.has-background a {
+  color: black;
+  background-color: white;
 }
 
 .wp-site-blocks > h1, .wp-site-blocks > h2, .wp-site-blocks > h3, .wp-site-blocks > h4, .wp-site-blocks > h5, .wp-site-blocks > h6, .wp-site-blocks > p,

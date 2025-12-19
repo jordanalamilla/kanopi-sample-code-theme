@@ -1,0 +1,27 @@
+.wp-block-create-block-kanopi-react-block {
+    @include shadow;
+    @include transition;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin: 80px 0;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    .cta-content-container {
+        padding: 50px;
+    }
+
+    h2 {
+        margin-top: unset;
+    }
+
+    &.has-background {
+        a {
+            color: black;
+            background-color: white;
+        }
+    }
+}
